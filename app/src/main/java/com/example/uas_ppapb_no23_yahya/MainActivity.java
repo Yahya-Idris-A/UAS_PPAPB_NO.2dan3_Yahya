@@ -74,11 +74,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void drawRightEye (int mWidth, int mHeight) {
-        mCanvas.drawCircle(mWidth / 2 - 200,mHeight / 2, 80, mCirclePaint);
+        mCanvas.drawCircle(mWidth / 2 + 200,mHeight / 2, 80, mCirclePaint);
     }
 
     public void drawLeftEye (int mWidth, int mHeight) {
-        mCanvas.drawCircle(mWidth / 2 + 200,mHeight / 2, 80, mCirclePaint);
+        mCanvas.drawCircle(mWidth / 2 - 200,mHeight / 2, 80, mCirclePaint);
     }
 
     public void drawEyeConnector (int mWidth, int mHeight) {
